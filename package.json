@@ -1,0 +1,32 @@
+{
+  "name": "simple-testable-express-api",
+  "version": "0.0.1",
+  "description": "API built with Express and Tested with Jest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npx standard --fix && npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCPedroza/simple-testable-express-api.git"
+  },
+  "keywords": ["test", "express", "api"],
+  "author": "JCPedroza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JCPedroza/simple-testable-express-api/issues"
+  },
+  "homepage": "https://github.com/JCPedroza/simple-testable-express-api#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^14.2.0",
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "standard": "^16.0.4"
+  }
+}
