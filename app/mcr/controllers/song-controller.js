@@ -8,7 +8,7 @@ const buildEditParams = (target, req) =>
 
 const getMany = (req, res, nxt) =>
   Song
-    .find()
+    .find({})
     .then(songs => res.json(songs))
     .catch(err => nxt(err))
 
@@ -20,7 +20,7 @@ const getOne = (req, res, nxt) =>
 
 const postOne = (req, res, nxt) =>
   Song
-    .create(sanitizeBody(req.body, bodyWhiteList), editOptions)
+    .create(sanitizeBody(req, bodyWhiteList))
     .then(song => res.json(song))
     .catch(err => nxt(err))
 
@@ -32,7 +32,7 @@ const putOne = (req, res, nxt) =>
 
 const patchOne = (req, res, nxt) =>
   Song
-    .findByIdAndUpdate(...buildEditParams(req.params.songId), req)
+    .findByIdAndUpdate(...buildEditParams(req.params.songId, req))
     .then(song => res.json(song))
     .catch(err => nxt(err))
 
