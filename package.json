@@ -5,13 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "npx standard --fix && npx jest"
+    "test": "npx standard --fix && npx jest",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JCPedroza/simple-testable-express-api.git"
   },
-  "keywords": ["test", "express", "api"],
+  "keywords": [
+    "test",
+    "express",
+    "api"
+  ],
   "author": "JCPedroza",
   "license": "MIT",
   "bugs": {
@@ -25,6 +30,7 @@
   },
   "devDependencies": {
     "dotenv": "^14.2.0",
+    "husky": "^7.0.4",
     "jest": "^27.4.7",
     "nodemon": "^2.0.15",
     "standard": "^16.0.4"
