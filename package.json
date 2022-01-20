@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "npx standard --fix && npx jest",
+    "test": "npx standard --fix && npx jest --passWithNoTests",
     "prepare": "husky install"
   },
   "repository": {
