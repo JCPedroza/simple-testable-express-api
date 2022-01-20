@@ -22,4 +22,4 @@
 
 <hr>
 
-<p>A very simple API (no https, no authentication) built with Express, tested with Jest.</p>
+<p>A very simple API (no https, no authentication) built with Express, tested with Jest and SuperTest.</p>
