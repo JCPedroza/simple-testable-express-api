@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a>
-  <a href="https://github.com/JCPedroza/algorithms-and-data-structures-js/blob/master/LICENSE"><img src="https://img.shields.io/github/license/jcpedroza/simple-testable-express-api"></a>
+  <a href="https://github.com/JCPedroza/simple-testable-express-api/blob/master/LICENSE"><img src="https://img.shields.io/github/license/jcpedroza/simple-testable-express-api"></a>
 </p>
 
 <p align="center">
