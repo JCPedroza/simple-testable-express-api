@@ -1,3 +1,12 @@
+# Ignores for line count shield
+
+# CI
+.github/
+.husky/
+
+# Data and readmes
 *.json
 *.md
+
+# No extension 
 LICENSE
